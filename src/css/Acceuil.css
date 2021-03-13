@@ -1,9 +1,5 @@
 .Acceuil{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 /*--------------Image Logo ---------------*/
 .UsrImgContainer{
@@ -11,10 +7,12 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #ccc;
+    
 }
 .UsrImg{
-    border: 3px solid #ccc;
+    margin: 5px auto;
+    border: 3px solid #fff;
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -22,24 +20,38 @@
 
 
 /*-------------- User Info ----------------*/
-
+.Nom,.Age{
+    margin: 10px auto;
+}
 .UserInfo{
     margin: 20px;
 }
 
 .Info{
+    width: calc(100% - 50px);
     display: flex;
     flex-direction: column;
     margin: 20px auto;
     justify-content: space-between;
 }
-.Nom,.Age,.Email,.LinkedIn,.Adress,.Tel{
+.Email,.LinkedIn,.Adress,.Tel{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 30px;
+    padding-left: 50px;
+}
+.Email{
+    background-image: url("../Media/maill.png");
+}
+.LinkedIn{
+    background-image: url("../Media/linked.png");
+}
+.Adress{
+    background-image: url("../Media/adresse.png");
+}
+.Tel{
+    background-image: url("../Media/tel.png");
 }
 .Titre{
     font-weight: bold;
-}
-.ForTitre{
 }
