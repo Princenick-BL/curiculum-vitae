@@ -3,7 +3,15 @@
     height: 100vh;
     z-index: 0;
 }
-.darkbody{
+
+.DarkPrimary{
+    background-color: rgb(0, 0, 0);
+}
+.DarkSecondary{
+    background-color: #121212;
+}
+
+.Light{
     background-color: #fff;
 }
 

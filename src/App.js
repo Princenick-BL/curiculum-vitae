@@ -1,6 +1,5 @@
 import './css/App.css'
 import NavBar from './components/NavBar'
-import Section from './components/Section'
 import ThemeContextProvider from './Context/ThemeContext'
 import Acceuil from './components/Acceuil'
 

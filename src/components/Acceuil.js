@@ -11,6 +11,7 @@ export default function Acceuil() {
 
             <div className="Nom">BALLO Prince Nick</div>
             <div className="Age">20 ans</div>
+            <div className="Formation">Formation initiale Génie logiciel et Data Sciences</div>
             
             <div className="UserInfo">
                 
@@ -21,6 +22,10 @@ export default function Acceuil() {
                 <div className="Info LinkedIn">
                     <div className="Titre ">LinkedIn</div>
                     <div className="ForTitre"><a href="https://www.linkedin.com/in/prince-nick-ballo/">Redirection vers LinkedIn</a></div>
+                </div>
+                <div className="Info GitHub">
+                    <div className="Titre ">GitHub</div>
+                    <div className="ForTitre"><a href="https://github.com/Princenick-BL">Redirection vers GitHub</a></div>
                 </div>
                 <div className="Info Adress">
                     <div className="Titre ">Adresse</div>

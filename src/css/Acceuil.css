@@ -20,7 +20,7 @@
 
 
 /*-------------- User Info ----------------*/
-.Nom,.Age{
+.Nom,.Age,.Formation{
     margin: 10px auto;
 }
 .UserInfo{
@@ -34,7 +34,7 @@
     margin: 20px auto;
     justify-content: space-between;
 }
-.Email,.LinkedIn,.Adress,.Tel{
+.Email,.LinkedIn,.Adress,.Tel,.GitHub{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 30px;
@@ -45,6 +45,9 @@
 }
 .LinkedIn{
     background-image: url("../Media/linked.png");
+}
+.GitHub{
+    background-image: url("../Media/github.png");
 }
 .Adress{
     background-image: url("../Media/adresse.png");
