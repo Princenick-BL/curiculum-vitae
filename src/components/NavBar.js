@@ -1,5 +1,6 @@
 import React ,{ useState,useEffect,useContext} from 'react'
 import '../css/NavBar.css'
+import {Link} from 'react-router-dom'
 import {ThemeContext} from '../Context/ThemeContext'
 
 export default function NavBar() {
@@ -8,7 +9,7 @@ export default function NavBar() {
     //verifier la largeur de la vue
     const [largeur,setLargeur]=useState(window.innerWidth);
     const [toggleMenu,setToggleMenu]=useState(false);
-    
+
     const showMenu =() =>{
         setToggleMenu(!toggleMenu);
     };
@@ -42,29 +43,42 @@ export default function NavBar() {
                     <div  alt="mode" className={!theme ? "modeImg clickLight " : "modeImg clickDark "}></div>
                 </div>
             </div>
-            
 
-            
-            
+
+
+
             {/*-------------- Les options du menu -------------*/}
             <nav className="center-children">
                 {(largeur>500 || toggleMenu)&&(
 
                     <div className="items-liste center-children">
-                        <div className="item center-children">Formation</div>
-                        <div className="item center-children">Certifications</div> 
-                        <div className="item center-children">Compétences</div>
-                        <div className="item center-children">Langues</div>
-                        <div className="item center-children">Centres d'intérêt</div>
+                        <div className="item center-children">
+                            <Link to="/" className="link">Acceuil</Link>
+                        </div>
+                        <div className="item center-children">
+                            <Link to="/Formation" className="link">Formation</Link>
+                        </div>
+                        <div className="item center-children">
+                            <Link to="/Certifications" className="link">Certifications</Link>
+                        </div>
+                        <div className="item center-children">
+                            <Link to="/Competences" className="link">Competences</Link>
+                        </div>
+                        <div className="item center-children">
+                            <Link to="/Langues" className="link">Langues</Link>
+                        </div>
+                        <div className="item center-children">
+                            <Link to="/CentreInteret" className="link">Centres d'intérêt</Link>
+                        </div>
                     </div>
                 )}
-                
+
 
             </nav>
 
-             
+
         </div>
-            
-            
+
+
     )
 }
