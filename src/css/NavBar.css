@@ -7,7 +7,9 @@ body{
 
 }
 .Menu{
-    width: 100vw;
+    width: 100vw;   
+}
+.MenuLight{
     background-color: cornflowerblue;
 }
 nav{
@@ -20,7 +22,6 @@ nav{
     background-position: left;
     background-size: 38px;
     width: 100%;
-    background-color: cornflowerblue;
     position: relative;
 
 }
@@ -49,7 +50,7 @@ nav{
 
 .modeImg{
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: 30px;
     width: 35px;
     height: 35px;
@@ -59,7 +60,8 @@ nav{
 }
 
 .clickDark{
-    margin-left: calc(100% - 40px);
+    margin-left: calc(99% - 40px);
+
 }
 .clickLight{
     margin-left: 5px;

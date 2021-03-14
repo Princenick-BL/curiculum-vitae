@@ -1,10 +1,15 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import '../css/Acceuil.css'
 import MaPhoto from '../Media/MaPhoto.jpeg'
+import {ThemeContext} from '../Context/ThemeContext'
 
 export default function Acceuil() {
+
+     //Recuperer le thème depuis context
+     const  {theme} = useContext(ThemeContext)
+
     return (
-        <div className="Acceuil center">
+        <div className={theme ? "Acceuil center colorPrimaryDark" : "Acceuil center" }>
             <div className="UsrImgContainer center">
                 <img className="UsrImg" src={MaPhoto} alt="logo"></img>
             </div>

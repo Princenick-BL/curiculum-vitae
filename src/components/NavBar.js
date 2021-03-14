@@ -1,21 +1,16 @@
-import React ,{ useState,useEffect} from 'react'
+import React ,{ useState,useEffect,useContext} from 'react'
 import '../css/NavBar.css'
-//import {ThemeContext} from '../Context/ThemeContext'
+import {ThemeContext} from '../Context/ThemeContext'
 
 export default function NavBar() {
     //Recuperer le thème depuis context
-    //const {theme}=useContext(ThemeContext);
+    const  {toggleTheme,theme} = useContext(ThemeContext)
     //verifier la largeur de la vue
     const [largeur,setLargeur]=useState(window.innerWidth);
     const [toggleMenu,setToggleMenu]=useState(false);
-    const [toggleDarkLight,setToggleDarkLight]=useState(false);
-
+    
     const showMenu =() =>{
         setToggleMenu(!toggleMenu);
-    };
-
-    const ChangeMode =()=>{
-        setToggleDarkLight(!toggleDarkLight);
     };
 
     useEffect(()=>{
@@ -34,7 +29,7 @@ export default function NavBar() {
         }
     },[])
     return (
-        <div className="Menu">
+        <div className={theme ? "Menu colorSecondaryDark" : "Menu MenuLight"}>
 
             {/*-------------- 3  barres du Menu -------------*/}
             <div className="head center">
@@ -43,8 +38,8 @@ export default function NavBar() {
                     <div className="nav-btn-span"></div>
                     <div className="nav-btn-span"></div>
                 </div>
-                <div className="toggleDarkLight" onClick={ChangeMode}>
-                    <div  alt="mode" className={!toggleDarkLight ? "modeImg clickLight " : "modeImg clickDark "}></div>
+                <div className="toggleDarkLight" onClick={toggleTheme}>
+                    <div  alt="mode" className={!theme ? "modeImg clickLight " : "modeImg clickDark "}></div>
                 </div>
             </div>
             

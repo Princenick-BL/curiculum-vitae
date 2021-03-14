@@ -4,15 +4,15 @@ import ThemeContextProvider from './Context/ThemeContext'
 import Acceuil from './components/Acceuil'
 
 
-
 function App() {
+  //Recuperer le thème depuis context
+  
+
   return (
-    <div className="App darkbody">
+    <div className="App" >
       <ThemeContextProvider>
         <NavBar></NavBar>
-        <div className="AppBody">
-          <Acceuil></Acceuil>
-        </div>
+        <Acceuil></Acceuil>        
       </ThemeContextProvider>    
     </div>
   );
