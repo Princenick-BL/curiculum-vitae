@@ -7,7 +7,7 @@ export default function () {
      const  {theme} = useContext(ThemeContext)
 
     return (
-        <div className={theme ? " formation colorPrimaryDark center" : "formation center" }>
+        <div className={theme ? " formation colorPrimaryDark flexV" : "formation flexV" }>
             <h1 className="title">Formation</h1>
         </div>
     )

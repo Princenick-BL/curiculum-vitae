@@ -7,7 +7,7 @@ export default function Certifications() {
      const  {theme} = useContext(ThemeContext)
 
     return (
-        <div className={theme ? " certifications colorPrimaryDark center" : "certifications center" }>
+        <div className={theme ? " certifications colorPrimaryDark flexV" : "certifications flexV" }>
             <h1 className="title">Mes Certifications</h1>
         </div>
     )

@@ -10,7 +10,7 @@ export default function NavBar() {
     const [largeur,setLargeur]=useState(window.innerWidth);
     const [toggleMenu,setToggleMenu]=useState(false);
 
-    const showMenu =() =>{
+    const ShowHideMenu =() =>{
         setToggleMenu(!toggleMenu);
     };
 
@@ -34,7 +34,7 @@ export default function NavBar() {
 
             {/*-------------- 3  barres du Menu -------------*/}
             <div className="head center">
-                <div className="nav-btn" onClick={showMenu}>
+                <div className="nav-btn" onClick={ShowHideMenu}>
                     <div className="nav-btn-span"></div>
                     <div className="nav-btn-span"></div>
                     <div className="nav-btn-span"></div>
@@ -53,22 +53,22 @@ export default function NavBar() {
 
                     <div className="items-liste center-children">
                         <div className="item center-children">
-                            <Link to="/" className="link">Acceuil</Link>
+                            <Link to="/" className="link" onClick={ShowHideMenu}>Acceuil</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Formation" className="link">Formation</Link>
+                            <Link to="/Formation" className="link" onClick={ShowHideMenu}>Formation</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Certifications" className="link">Certifications</Link>
+                            <Link to="/Certifications" className="link" onClick={ShowHideMenu}>Certifications</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Competences" className="link">Competences</Link>
+                            <Link to="/Competences" className="link" onClick={ShowHideMenu}>Competences</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Langues" className="link">Langues</Link>
+                            <Link to="/Langues" className="link" onClick={ShowHideMenu}>Langues</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/CentreInteret" className="link">Centres d'intérêt</Link>
+                            <Link to="/CentreInteret" className="link" onClick={ShowHideMenu}>Centres d'intérêt</Link>
                         </div>
                     </div>
                 )}

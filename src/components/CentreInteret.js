@@ -8,7 +8,7 @@ export default function CentreInteret() {
      const  {theme} = useContext(ThemeContext)
 
     return (
-        <div className={theme ? " centreInteret colorPrimaryDark center" : "centreInteret center" } >
+        <div className={theme ? " centreInteret colorPrimaryDark flexV" : "centreInteret flexV" } >
             <h1 className="title">Mes Centres d' intérêt</h1>
         </div>
     )

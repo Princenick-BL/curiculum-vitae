@@ -7,7 +7,7 @@ export default function Langues() {
      const  {theme} = useContext(ThemeContext)
 
     return (
-        <div className={theme ? " langues colorPrimaryDark center" : "langues center" }>
+        <div className={theme ? " langues colorPrimaryDark flexV" : "langues flexV" }>
             <h1 className="title">Langues</h1>
         </div>
     )
