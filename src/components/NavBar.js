@@ -53,22 +53,22 @@ export default function NavBar() {
 
                     <div className="items-liste center-children">
                         <div className="item center-children">
-                            <Link to="/" className="link" onClick={ShowHideMenu}>Acceuil</Link>
+                            <Link to="/curiculum-vitae/" className="link" onClick={ShowHideMenu}>Acceuil</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Formation" className="link" onClick={ShowHideMenu}>Formation</Link>
+                            <Link to="/curiculum-vitae/Formation" className="link" onClick={ShowHideMenu}>Formation</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Certifications" className="link" onClick={ShowHideMenu}>Certifications</Link>
+                            <Link to="/curiculum-vitae/Certifications" className="link" onClick={ShowHideMenu}>Certifications</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Competences" className="link" onClick={ShowHideMenu}>Competences</Link>
+                            <Link to="/curiculum-vitae/Competences" className="link" onClick={ShowHideMenu}>Competences</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/Langues" className="link" onClick={ShowHideMenu}>Langues</Link>
+                            <Link to="/curiculum-vitae/Langues" className="link" onClick={ShowHideMenu}>Langues</Link>
                         </div>
                         <div className="item center-children">
-                            <Link to="/CentreInteret" className="link" onClick={ShowHideMenu}>Centres d'intérêt</Link>
+                            <Link to="/curiculum-vitae/CentreInteret" className="link" onClick={ShowHideMenu}>Centres d'intérêt</Link>
                         </div>
                     </div>
                 )}
