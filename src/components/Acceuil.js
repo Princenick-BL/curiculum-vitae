@@ -9,9 +9,9 @@ export default function Acceuil() {
      const  {theme} = useContext(ThemeContext)
 
     return (
-        <div className={theme ? "Acceuil center colorPrimaryDark" : "Acceuil center" }>
+        <div className={theme ? "Acceuil colorPrimaryDark flexV" : "Acceuil flexV" }>
             
-            <div className={theme ? "UsrImgContainer  colorSecondaryDark" : "UsrImgContainer " }>
+            <div className={theme ? "UsrImgContainer  colorSecondaryDark center" : "UsrImgContainer center" }>
                 <img className="UsrImg" src={MaPhoto} alt="logo"></img>
             </div>
 

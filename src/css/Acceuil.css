@@ -4,18 +4,16 @@
 }
 /*--------------Image Logo ---------------*/
 .UsrImgContainer{
-    position: relative;
-    display: flex;
-    justify-content: center;
+    
     margin: 40px auto;
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+    background-color: #ccc;
     
 }
 .UsrImg{
-    margin: auto;
+    
     border: 3px solid #fff;
     width: 110px;
     height: 110px;
@@ -28,8 +26,7 @@
     margin: 10px auto;
 }
 .UserInfo{
-    width: 70%;
-    margin: 20px;
+    width: 100%;
 }
 
 .Info{
