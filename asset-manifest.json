@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/curiculum-vitae/static/css/main.23ff09c2.chunk.css",
-    "main.js": "/curiculum-vitae/static/js/main.2664ba74.chunk.js",
-    "main.js.map": "/curiculum-vitae/static/js/main.2664ba74.chunk.js.map",
+    "main.css": "/curiculum-vitae/static/css/main.e7df2575.chunk.css",
+    "main.js": "/curiculum-vitae/static/js/main.f2f53740.chunk.js",
+    "main.js.map": "/curiculum-vitae/static/js/main.f2f53740.chunk.js.map",
     "runtime-main.js": "/curiculum-vitae/static/js/runtime-main.d55d8cc3.js",
     "runtime-main.js.map": "/curiculum-vitae/static/js/runtime-main.d55d8cc3.js.map",
     "static/js/2.78106635.chunk.js": "/curiculum-vitae/static/js/2.78106635.chunk.js",
     "static/js/2.78106635.chunk.js.map": "/curiculum-vitae/static/js/2.78106635.chunk.js.map",
     "index.html": "/curiculum-vitae/index.html",
-    "static/css/main.23ff09c2.chunk.css.map": "/curiculum-vitae/static/css/main.23ff09c2.chunk.css.map",
+    "static/css/main.e7df2575.chunk.css.map": "/curiculum-vitae/static/css/main.e7df2575.chunk.css.map",
     "static/js/2.78106635.chunk.js.LICENSE.txt": "/curiculum-vitae/static/js/2.78106635.chunk.js.LICENSE.txt",
     "static/media/MaPhoto.6c725ad1.jpeg": "/curiculum-vitae/static/media/MaPhoto.6c725ad1.jpeg",
     "static/media/Acceuil.css": "/curiculum-vitae/static/media/tel.a46eb313.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.d55d8cc3.js",
     "static/js/2.78106635.chunk.js",
-    "static/css/main.23ff09c2.chunk.css",
-    "static/js/main.2664ba74.chunk.js"
+    "static/css/main.e7df2575.chunk.css",
+    "static/js/main.f2f53740.chunk.js"
   ]
 }
