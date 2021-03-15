@@ -1,0 +1,36 @@
+.CustomAlert{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.popup {
+    width: 60%;  
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    max-width: 550px;
+    position: relative;
+  
+}
+
+.choix:hover {
+    color: #06D85F;
+    cursor: pointer;
+}
+.alertMessage{
+    width: 70%;
+    text-align: center;
+    margin-top: 30px;
+}
+.choixContainer{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}

@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import {ThemeContext} from '../Context/ThemeContext'
 import '../css/Formation.css'
 
-export default function () {
+export default function Formation() {
      //Recuperer le thème depuis context
      const  {theme} = useContext(ThemeContext)
 

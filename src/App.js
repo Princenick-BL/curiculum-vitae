@@ -21,12 +21,16 @@ function App() {
         <Router>
           <NavBar/>
           <Switch>
-              <Route exact path="/curiculum-vitae/" component={Acceuil}/>
-              <Route exact path="/curiculum-vitae/Formation" component={Formation}/>
-              <Route exact path="/curiculum-vitae/CentreInteret" component={CentreInteret}/>
-              <Route exact path="/curiculum-vitae/Certifications" component={Certifications}/>
-              <Route exact path="/curiculum-vitae/Competences" component={Competences}/>
-              <Route exact path="/curiculum-vitae/Langues" component={Langues}/>
+              <Route exact path="/" component={Acceuil}/>
+              <Route exact path="/Formation" component={Formation}/>
+              <Route exact path="/CentreInteret" component={CentreInteret}/>
+              <Route exact path="/Certifications" component={Certifications}/>
+              <Route exact path="/Competences" component={Competences}/>
+              <Route exact path="/Langues" component={Langues}/>
+
+              <Route exact path="" component={Acceuil}/>
+
+              {/* <Route component={Acceuil}/> */}
           </Switch>
          
         </Router>

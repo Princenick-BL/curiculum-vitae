@@ -10,7 +10,8 @@ export default function Acceuil() {
 
     return (
         <div className={theme ? "Acceuil center colorPrimaryDark" : "Acceuil center" }>
-            <div className="UsrImgContainer center">
+            
+            <div className={theme ? "UsrImgContainer  colorSecondaryDark" : "UsrImgContainer " }>
                 <img className="UsrImg" src={MaPhoto} alt="logo"></img>
             </div>
 
@@ -18,7 +19,7 @@ export default function Acceuil() {
             <div className="Age">20 ans</div>
             <div className="Formation">Formation initiale Génie logiciel et Data Sciences</div>
             
-            <div className="UserInfo">
+            <div className="UserInfo center">
                 
                 <div className="Info Email">
                     <div className="Titre ">Email</div>
