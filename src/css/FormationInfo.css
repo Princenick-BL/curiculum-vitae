@@ -3,6 +3,7 @@
     max-width: 400px;
     margin: 20px  auto;
 }
+
 .dot1{
     width: 10px;
     height: 10px;
@@ -11,6 +12,7 @@
     background-color: #ccc;
     
 }
+
 .dot2{
     width: 10px;
     height: 3px;
@@ -34,6 +36,7 @@
 .m5{
     margin: 5px;
 }
+
 .m10{
     margin: 10px;
 }
