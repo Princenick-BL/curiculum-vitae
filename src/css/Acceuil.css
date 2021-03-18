@@ -24,7 +24,7 @@
 
 /*-------------- User Info ----------------*/
 .Nom,.Age,.Formation{
-    
+    text-align: center;
     margin: 10px auto;
 }
 .UserInfo{
