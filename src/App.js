@@ -1,13 +1,13 @@
 import './css/App.css'
 import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
-import NavBar from './components/NavBar'
+import NavBar from './Components/NavBar'
 import ThemeContextProvider from './Context/ThemeContext'
-import Acceuil from './components/Acceuil'
-import CentreInteret from './components/CentreInteret'
-import Certifications from './components/Certifications'
-import Competences from './components/Competences'
-import Formation from './components/Formation'
-import Langues from './components/Langues'
+import Acceuil from './view/Acceuil'
+import CentreInteret from './view/CentreInteret'
+import Certifications from './view/Certifications'
+import Competences from './view/Competences'
+import Formation from './view/Formation'
+import Langues from './view/Langues'
 
 
 function App() {

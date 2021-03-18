@@ -15,6 +15,15 @@
     background-color: #fff;
 }
 
+.flexV{
+    display: flex;
+    flex-direction: column;
+
+}
+.flexH{
+    display: flex;
+    flex-direction: row;
+}
 
 
 .center{
@@ -35,4 +44,7 @@
 
 .title{
     margin: 20px auto;
+    
 }
+
+

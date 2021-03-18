@@ -1,0 +1,43 @@
+{
+    "Formations":{
+        "1":{
+            "periode":"2019-2022",
+            "ecole":"Ecole d'Ingénieur du Littoral Cote d'Opale ( EILCO ) Calais/France",
+            "annees":{
+                "1":{
+                    "nom":"ING1",
+                    "desc":"Première année de cycle d'ingénieur informatique"
+                },
+                "2":{
+                    "nom":"ING2",
+                    "desc":"Deuxième année de cycle d'ingénieur informatique"
+                }
+            }
+        },
+        "2":{
+            "periode":"2017-2019",
+            "ecole":"Institut Nationnal Supérieur des classes Préparatoires aux Etudes d'Ingénieur ( INSPEI ) Abomey/Benin",
+            "annees":{
+                "1":{
+                    "nom":"CP1",
+                    "desc":"Première année de classes préparatoires aux grandes écoles"
+                },
+                "2":{
+                    "nom":"CP2",
+                    "desc":"Première année de classes préparatoires aux grandes écoles"
+                }
+            }
+        },
+        "3":{
+            "periode":"2017",
+            "ecole":"Collège d'enseignement Général d'Aplahoué Aplahoué/Benin",
+            "annees":{
+                "1":{
+                    "nom":"BAC C",
+                    "desc":"Baccalauréat scientifique option mathématiques et physiques"
+                }
+                
+            }
+        }
+    }
+}

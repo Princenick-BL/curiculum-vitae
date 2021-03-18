@@ -2,7 +2,7 @@ import React ,{ useState,useEffect,useContext} from 'react'
 import '../css/NavBar.css'
 import {Link} from 'react-router-dom'
 import {ThemeContext} from '../Context/ThemeContext'
-import Alert from '../components/CustomAlert'
+import Alert from './CustomAlert'
 
 export default function NavBar() {
 

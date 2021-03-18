@@ -1,0 +1,46 @@
+.FIF{
+    width: 70%;
+    max-width: 400px;
+    margin: 20px  auto;
+}
+.dot1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 100%;
+    background-color: #ccc;
+    
+}
+.dot2{
+    width: 10px;
+    height: 3px;
+    content: "-";
+    font-size: 100%;
+    background-color: #ccc;
+}
+
+.line{
+    margin: 3px;
+    margin-top: 5px;
+    width: 3px;
+    height: 100%;
+    background-color: #ccc;
+}
+.text{
+    padding-left: 10px;
+}
+
+.m5{
+    margin: 5px;
+}
+.m10{
+    margin: 10px;
+}
+
+.ml10{
+    margin-left: 20px;
+}
+
+.ml5{
+    margin-left: 5px;
+}
