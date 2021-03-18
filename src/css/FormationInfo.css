@@ -23,6 +23,7 @@
     margin: 3px;
     margin-top: 5px;
     width: 3px;
+    min-width: 3px;
     height: 100%;
     background-color: #ccc;
 }
