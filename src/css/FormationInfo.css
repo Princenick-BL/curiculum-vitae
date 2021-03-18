@@ -21,9 +21,11 @@
     background-color: #ccc;
 }
 .line2{
-    background-color: #000;
-    min-width: 5px;
-    height: 100px;
+    background-color: #ccc;
+    min-width: 3px;
+    height: 90%;
+    margin: 3px;
+    margin-top: 5px;
 }
 .line{
     margin: 3px;
