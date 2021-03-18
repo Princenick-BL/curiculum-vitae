@@ -24,7 +24,7 @@ export default class FormationInfo extends Component {
 
                 <div className="flexH">
 
-                    <div className="line2"></div>
+                    <div className="line"></div>
 
                     <div className="flexV m10">
 
