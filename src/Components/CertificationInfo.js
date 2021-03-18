@@ -7,6 +7,7 @@ export default class CertificationInfo extends Component {
 
     render() {
         return (
+            
             <div className={this.props.theme ? "CertificationInfo Cdark flexV" : "CertificationInfo Clight flexV" }>
                 <div className="Ctitre">{this.props.titre}</div>
                 <div className="Cecole-Annee">{this.props.ecole + " : "+ this.props.annee}</div>
