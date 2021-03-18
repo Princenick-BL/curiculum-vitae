@@ -16,13 +16,18 @@ export default class FormationInfo extends Component {
         return (
             
             <div className="FIF flexV">
+
                 <div className="flexH ">
                     <div className="dot1"></div>
                     <div className="text">{this.props.periode}</div>
                 </div>
+
                 <div className="flexH">
-                    <div className="line"></div>
+
+                    <div className="line2"></div>
+
                     <div className="flexV m10">
+
                         <div className="flexH ">
                             <div className="dot2"></div>
                             <div className="text">{this.props.ecole}</div>
