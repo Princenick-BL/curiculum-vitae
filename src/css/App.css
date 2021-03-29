@@ -26,7 +26,10 @@
     flex-direction: row;
 }
 
-
+.flexW{
+    display: flex;
+    flex-wrap: wrap;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -44,7 +47,7 @@
 }
 
 .title{
-    margin: 20px auto;
+    margin: 40px auto;
     
 }
 

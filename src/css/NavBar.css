@@ -2,12 +2,12 @@ body{
 
     margin:0;
     padding:0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 
 }
 .Menu{
-    width: 100vw;   
+    width: 100%;   
 }
 .MenuLight{
     background-color: cornflowerblue;

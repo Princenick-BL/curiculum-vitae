@@ -18,22 +18,16 @@ export default class FormationInfo extends Component {
             <div className="FIF flexV">
 
                 <div className="flexH ">
-                    <div className="dot1"></div>
-                    <div className="text">{this.props.periode}</div>
+                    <div className="periodeContainer center">
+                        <div className="periode center">{this.props.periode}</div>
+                    </div>
+                    <div className="textContainer center">
+                        <div className="text">{this.props.ecole}</div>
+                    </div>
                 </div>
 
-                <div className="flexH">
-
-                    <div className="line"></div>
-
-                    <div className="flexV m10">
-
-                        <div className="flexH ">
-                            <div className="dot2"></div>
-                            <div className="text">{this.props.ecole}</div>
-                        </div>
-
-                        <div className="flexV m10 ml10">
+                <div className="flexH ml">
+                     <div className="flexV">
                             {
                             Object.entries(JSON.parse(this.props.annee)[0]).map((value, index) => {
                                
@@ -51,13 +45,10 @@ export default class FormationInfo extends Component {
                                 )
                             })
                                 
-                            }
-                            
-                            
-                                
+                            }                              
                        
                         </div>
-                    </div>
+                   
                 </div>
                 
             </div>

@@ -1,6 +1,7 @@
 .CertificationInfo{
-    width: 70%;
-    max-width: 400px;
+    
+    width: 80%;
+    max-width: 700px;
     padding: 10px;
     margin: 20px auto;
     border-radius: 10px;
@@ -11,6 +12,9 @@
 }
 .Clight{
     box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+}
+.Ctitre{
+    color: crimson;
 }
 .Ctitre,.Cecole-Annee,.Clien{
     margin: 10px;
