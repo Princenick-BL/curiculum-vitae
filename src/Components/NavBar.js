@@ -82,9 +82,7 @@ export default function NavBar() {
                         <div className="item center-children">
                             <Link to="/Langues" className="link" onClick={ShowHideMenu}>Langues</Link>
                         </div>
-                        <div className="item center-children">
-                            <Link to="/CentreInteret" className="link" onClick={ShowHideMenu}>Centres d'intérêt</Link>
-                        </div>
+                        
                     </div>
                 )}
 
