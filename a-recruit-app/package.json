@@ -2,9 +2,11 @@
   "name": "a-recruit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://princenick-bl.github.io/a-recruit",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "next start"
   },
   "dependencies": {
